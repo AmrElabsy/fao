@@ -1,0 +1,525 @@
+﻿body
+{
+	
+	background: url('../images/11.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    
+}  
+.navbar 
+{
+	min-height: 65px
+}
+.navbar .navbar-brand
+{
+	line-height: 30px
+}
+
+.navbar .navbar-header a
+{
+	color:#DBDBDB;
+	font-size: 20px;
+	text-decoration: none;
+	padding-left: 10px
+
+}
+.navbar .collapse
+{
+	padding-left: 0
+}
+
+
+.navbar .collapse li a:hover
+{
+   background-color: #6D5D43
+}
+
+.navbar .collapse li button
+{
+	background-color: #C9A975;
+	border-radius: 0;
+	border-color:  #C9A975;
+	min-width:200px;
+	margin-bottom: 0
+
+}
+	
+	
+.navbar1
+{
+	background-color: rgba(34, 32, 29,.94) ;
+	max-width: 257px;
+	min-height: 1000px;
+    overflow-x: hidden; 
+    color: rgb(251, 252, 253);
+    margin-left: 60px;
+    border-radius: 0;
+    position: absolute;
+    margin-bottom: 0;
+
+}
+
+.navbar1 img
+{
+	width: 195px;
+	margin-top: 60px
+
+}
+
+.navbar1 hr
+{
+	color:#B7996A;
+	width: 60px
+}
+.navbar1 h4
+{
+	color: #DBDBDB;
+	line-height: 24px;
+	margin-top: 20px
+}
+
+.navbar1 button
+{
+	background-color: #C9A975;
+	border-radius: 3%;
+	border-color:  #C9A975;
+	width:190px;
+	height: 43px;
+	margin:45px auto;
+}
+.navbar1 ul 
+{
+	margin-left: 10px;
+	margin-top: 25px
+}
+.navbar1 ul li a
+{
+	color: #F4F4F4;
+	line-height: 35px;
+	text-decoration: none;
+}
+.navbar1 ul li a:hover
+{
+	color:#6D5D43;
+}
+
+.navbar1 ul li a:active
+{
+	color:#6D5D43;
+}
+.navbar1 .hr
+{
+	width: 190px;
+	color: rgb(34, 32, 29); 
+	margin-top:30px;
+}
+.navbar p
+{
+	margin-left: 10px;
+	margin-top: 25px;
+	font-size: 13px;
+	line-height: 23px;
+	color: #7E7E7E
+}
+.page-body
+{
+	background-color: rgba(34, 32, 29,.9) ;
+	margin-top: 70px;
+	min-height: 400px;
+	position: relative;
+	/*max-width: 450px*/
+
+
+}
+.page-body .login
+{
+	color: #DBDBDB;
+	padding-top: 20px;
+	letter-spacing: -3px;
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+.page-body h2.signup
+{
+   	color: #DBDBDB;
+	padding-top: 20px;
+	letter-spacing: -3px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.page-body .form .first
+{
+	display: inline-block;
+	width: 120px;
+	height: 34px;
+	padding-left: 10px;
+	margin-top:30px;
+	margin-left: 45px
+
+}
+.page-body .form .last
+{
+	display: inline-block;
+	width: 120px;
+    height: 34px;
+    padding-left: 10px;
+    margin-top: 30px;
+    margin-left: 7px;
+}
+.page-body .form .email,
+.page-body .form .Password,
+.page-body .form .credit,
+.page-body .form .address
+
+{
+	width: 250px;
+	margin-top:18px;
+	height: 40px;
+	padding-left: 15px
+}
+
+.page-body .form .email
+{
+    margin-top: 0;
+}
+
+.page-body .form .email
+{
+	/*margin-top: 60px;*/
+
+}
+.page-body .form .btn
+{
+	width: 250px;
+	margin-top:30px;
+	background-color:#C9A975;
+	border-color: #C9A975;
+	border-radius: 0
+}
+.page-body .form .para
+{
+	color: #DBDBDB;
+	margin-top: 20px;
+	margin-left: 75px;
+	display: inline-block;
+}
+
+.page-body .form div.err-msg, .err-msg
+{
+    margin-top: 3px;
+    color: #F44;
+}
+
+.page-body .form .sign
+{
+	color:#C9A975;
+}
+
+.page-body .form .sign:hover
+{
+	text-decoration: none;
+}
+
+.page-body .form .signup
+{
+	color:#C9A975;
+}
+
+.page-body .form .signup:hover
+{
+	text-decoration: none;
+}
+
+.room-form-pad
+{
+    padding-left: 0;
+}
+
+.page-body-navbar1
+{
+    background-color: rgba(34, 32, 29,.94) ;
+    color: rgb(251, 252, 253);
+	margin-top: 100px;
+    margin-left: 400px;
+    padding: 20px 20px 40px;
+	min-height: 160px;
+    min-width: 200px;
+    width: 500px;
+	position: relative;
+}
+
+
+.button
+{
+    background-color: #C9A975;
+	border-radius: 0;
+	border-color:  #C9A975;
+	min-width:50px;
+	margin-bottom: 0;
+    
+}
+
+.input-price
+{
+    color: rgb(251, 252, 253);
+    max-width:100px;
+    background-color: rgba(201, 169, 117, 0.72) ;
+    height: 25px;
+}
+
+RadioButtonList ListItem, RadioButtonList label
+{
+    display:inline;
+}
+
+table.inline
+{
+    display:block;
+    margin-top: 10px;
+}
+
+.inline *
+{
+    display: inline;
+}
+
+.inline tr
+{
+    width: 30%;
+    margin: 10px;
+}
+
+/* client table*/
+
+.table-font
+{
+    color:#F4F4F4
+}
+
+.h2
+{
+    color:#F4F4F4;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center
+}
+
+.table tr:hover
+{
+    color:#F4F4F4;
+    background-color: #6D5D43;
+}
+.head tr:hover
+{
+    color: #F4F4F4;
+    background-color: rgba(34, 32, 29,.94)
+}
+
+.table-body
+{
+    max-width: 860px;
+}
+
+
+/* Dashboard */
+.Dashboard
+{
+    color:#F4F4F4;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center
+}
+.div-table-margin
+{
+    margin-left: 180px;
+    margin-top: 20px;
+    width:450px;
+    min-height:300px;
+}
+.label-Dashboard
+{
+    background-color: #C9A975;
+    margin-left:10px;
+    margin-top: 20px;
+    margin-right:10px;
+    margin-bottom:20px;
+    padding:10px;
+    width:29%;
+    height:40px;
+    
+}
+.label-Rooms
+{
+    background-color:rgba(201, 169, 117, 0.84);
+    margin-left:30px;
+    margin-right:10px;
+    margin-bottom:10px;
+    padding:5px;
+    width:25%;
+    height:30px;
+}
+.div-label-margin
+{  
+    margin-bottom: 10px;
+    margin-left:140px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width:650px;
+    height:100px;
+    
+}
+.span-color
+{
+    background-color: rgba(34, 32, 29,.94);
+}
+.div-graph
+{
+    margin-left: 180px;
+}
+
+.video-gallery
+{
+    margin:35px 0;
+}
+
+.small-videos
+{
+    margin: 15px 1px;
+    padding-top: 20px;
+}
+
+.video-gallery video
+{
+    width:100%;
+}
+
+.video-gallery div:first-of-type
+{
+    margin-bottom: 10px;
+}
+
+
+
+@media (max-width: 991px) and (min-width: 768px)
+{
+	.navbar-header
+	{
+		margin-left: 0;
+	}
+	.navbar-nav > li > a 
+	{
+		line-height: 30px;
+		padding-left: 12px;
+		font-size: 14px
+
+	}
+	.navbar .navbar-header a
+	{
+		font-size: 16px;
+		
+	}
+	.navbar .collapse li button
+	{
+		min-width: 77px;
+		border-radius: 0;
+		height: 90px;
+		margin-left: 15px
+	}
+
+}
+@media (min-width: 992px) and (max-width: )
+{.container {
+    width: 694px;}
+}
+
+/* Rooms Show For Clients */
+.page-body .room
+{
+	background-color: rgba(43, 43, 43,.92);
+	margin-top: 10px;
+	min-height: 250px;
+	position: relative;
+	max-width: 1000px;
+}
+.page-body .room img
+{
+	width:330px;
+	height: 200px;
+	margin-top: 25px;
+	margin-left: 10px
+}
+.page-body .room h4
+{
+	margin-top: 40px;
+	color: #F4F4F4;
+	line-height: 23px
+}
+
+.page-body .room a
+{
+	margin-top: 20px;
+	color: #8e7a59;
+	text-decoration: none;
+	text-decoration-line: underline;
+}
+
+.page-body .room a.btn
+{
+	background-color: #C9A975;
+	border-radius: 3%;
+	border-color:  #C9A975;
+	width:130px;
+	height: 35px;
+	margin-top: 35px;
+	margin-left: 30px;
+	font-size: 16px;
+    color:inherit;
+    text-decoration:none;
+
+}
+.page-body .room p
+{
+	color: #F4F4F4;
+
+}
+
+
+.page-body .room a:hover
+{
+		text-decoration-line: none;
+
+}
+.page-body ul
+{
+	display: none;
+	list-style-type: none;
+	line-height: 45px;
+	color:#F4F4F4;
+	margin-top:90px;
+
+
+}
+.page-body .less
+{
+	display: none;
+	color: #8e7a59;
+	text-decoration: none;
+	text-decoration-line: underline;
+	margin-top: 0
+}
+
+.fullBackground
+{
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%
+}

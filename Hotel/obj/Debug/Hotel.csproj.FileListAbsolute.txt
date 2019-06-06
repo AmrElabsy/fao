@@ -1,0 +1,6 @@
+C:\Users\source\documents\visual studio 2013\Projects\Hotel\Hotel\bin\Hotel.dll.config
+C:\Users\source\documents\visual studio 2013\Projects\Hotel\Hotel\bin\Hotel.dll
+C:\Users\source\documents\visual studio 2013\Projects\Hotel\Hotel\bin\Hotel.pdb
+C:\Users\source\documents\visual studio 2013\Projects\Hotel\Hotel\obj\Debug\Hotel.csprojResolveAssemblyReference.cache
+C:\Users\source\documents\visual studio 2013\Projects\Hotel\Hotel\obj\Debug\Hotel.dll
+C:\Users\source\documents\visual studio 2013\Projects\Hotel\Hotel\obj\Debug\Hotel.pdb

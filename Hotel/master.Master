@@ -1,0 +1,149 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master.master.cs" Inherits="Hotel.master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head runat="server">
+        <title></title>
+    
+        <link href="static/css/bootstrap.css" rel="stylesheet" />
+        <link href="static/css/font-awesome.css" rel="stylesheet" />
+        <link href="static/css/hover-min.css" rel="stylesheet" />
+        <link href="static/css/animate.css" rel="stylesheet" />
+        <link href="static/css/style.css" rel="stylesheet" runat="server" />
+
+
+         <script src="static/js/html5shiv.min.js"></script>
+        <script src="static/js/respond.min.js"></script>
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+    </head>
+    <body>
+        <div class="fullBackground">
+	
+			</div>
+            <nav class="navbar navbar-inverse hidden-md visible-sm visible-xs">
+			    <div class="container">
+				    <div class="navbar-header">
+					    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						    <span class="sr-only">Toggle navigation</span>
+						    <span class="icon-bar"></span>
+						    <span class="icon-bar"></span>
+						    <span class="icon-bar"></span>
+					    </button>				      
+					    <a class="navbar-brand" href="#">Folkestone Opera</a>
+				    </div>
+				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					    <ul class="nav navbar-nav">
+                        <%
+                            if (Session["admin_name"] != null)
+                            {
+                                %>
+                                    <li><a href="dashboard.aspx">Dashboard</a></li>
+                                <%
+                            }
+                        %>
+                            <li><a href="roomsshow.aspx">Rooms</a></li>
+						    <li><a href="gallery.aspx">Gallery</a></li>
+                            <%
+                                if(Session["name"] != null || Session["admin_name"] != null)
+                                {
+                                    
+                                    if (Session["admin_name"] != null)
+                                    {
+                                        %>
+                                            <li><a href="rooms.aspx">Rooms Adminstration</a></li>
+                                            <li><a href="addroom.aspx">Add Room</a></li>
+
+                                        <%
+                                    }
+                                    %>
+                                        <li><a href="logout.aspx">Log Out</a></li>
+                                    <%
+                                }
+                                else
+                                {
+                                    %>
+                                        <li><a href="login.aspx">Log In</a></li>
+                                        <li><a href="Signup.aspx">Sign Up</a></li>
+                                        <li><a href="AdminLogIn.aspx">Admin Log In</a></li>
+                                    <%
+                                }
+                            %>
+					    </ul>
+				    </div>
+			    </div>
+		    </nav>
+		    <div class="row">
+			
+		    </div>
+		    <div class="navbar1 col-lg-3 col-md-3 hidden-sm hidden-xs">
+			    <img class="img-responsive center-block" src="static/images/logo-bw-light.png" />
+			    <hr />
+			    <h4 class="text-center">Hotel<br /> <strong>F. A. O</strong></h4>
+			    <hr class="hr" />
+			    <button type="button" class="btn btn-default center-block btn-lg">Book Now</button>
+			    <hr class="hr" />
+			    <div class="container">
+				    <ul class="list-unstyled">
+                        <%
+                            if (Session["admin_name"] != null)
+                            {
+                                %>
+                                    <li><a href="dashboard.aspx">Dashboard</a></li>
+                                <%
+                            }
+                        %>
+					    <li><a href="roomsshow.aspx">Rooms</a></li>
+					    <li><a href="gallery.aspx">Gallery</a></li>
+                        <%
+                            if(Session["name"] != null || Session["admin_name"] != null)
+                            {
+                                if(Session["name"] != null || Session["admin_name"] != null)
+                                {
+                                    if (Session["admin_name"] != null)
+                                    {
+                                        %>
+                                            <li><a href="rooms.aspx">Rooms Adminatration</a></li>
+                                            <li><a href="addroom.aspx">Add Room</a></li>
+                                        <%
+                                    }
+                                }
+                                %>
+                                    <li><a href="logout.aspx">Log Out</a></li>
+                                <%
+                            }
+                            else
+                            {
+                                %>
+                                    <li><a href="login.aspx">Log In</a></li>
+                                    <li><a href="Signup.aspx">Sign Up</a></li>
+                                    <li><a href="AdminLogIn.aspx">Admin Log In</a></li>
+                                <%
+                            }
+                        %>
+				    </ul>
+			    </div>
+			    <hr class="hr" />
+			    <div class="container">
+				    <p>9 Rue de Castellane<br />
+				    75008 Paris – France<br />
+				    Tel: +33 1 42 65 73 09<br />
+				    Fax: +33 1 42 65 64 09</p>
+			    </div>
+		    </div>
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                </asp:ContentPlaceHolder>
+            </div>
+        
+        <script src="static/js/jquery-3.3.1.min.js"></script>
+        <script src="static/js/bootstrap.js"></script>
+        <script src="static/js/wow.min.js"></script>
+        <script src="static/js/jquery.nicescroll.min.js"></script>
+        <script src="static/js/canvasjs.min.js"></script>
+      	<script src="static/js/fullclip.min.js"></script>
+        <script src="static/js/pluigns.js"></script>
+    </body>
+</html>
