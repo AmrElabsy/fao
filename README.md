@@ -20,7 +20,7 @@
 
 
 ## Time:-
-~ 10 Hours for ~ 1 week.
+~ 10 Hours for ~ 1 week, ended on 12th of May 2019
 
 ## Team:- 
 1. Amr El-Absy (Team Leader & Back End Developer)
